@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.test.TestLogin">
+        <methods>
+          <include name="notCreated"/>
+          <include name="singleLineSingleQuantity"/>
+          <include name="createPurchaseWithoutProduct"/>
+          <include name="closeApp"/>
+          <include name="addService"/>
+          <include name="addMultipleService"/>
+          <include name="copyBillingaddress"/>
+          <include name="multiLineMultiQuantity"/>
+          <include name="openApp"/>
+          <include name="copyShippingaddress"/>
+          <include name="validLogin"/>
+          <include name="cancelledStatus"/>
+        </methods>
+      </class> <!-- com.vtiger.test.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
