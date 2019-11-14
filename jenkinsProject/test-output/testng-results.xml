@@ -2,12 +2,12 @@
 <testng-results skipped="10" failed="0" ignored="0" total="10" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1255" started-at="2019-11-14T18:29:28 IST" finished-at="2019-11-14T18:29:30 IST">
+  <suite name="Suite" duration-ms="495" started-at="2019-11-14T18:35:51 IST" finished-at="2019-11-14T18:35:52 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1255" started-at="2019-11-14T18:29:28 IST" finished-at="2019-11-14T18:29:30 IST">
+    <test name="Test" duration-ms="495" started-at="2019-11-14T18:35:51 IST" finished-at="2019-11-14T18:35:52 IST">
       <class name="com.vtiger.test.TestLogin">
-        <test-method status="FAIL" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="468" started-at="2019-11-14T18:29:28 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="FAIL" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="203" started-at="2019-11-14T18:35:51 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -61,7 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="addMultipleService()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="addMultipleService" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="addMultipleService()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="addMultipleService" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -115,7 +115,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleService -->
-        <test-method status="SKIP" signature="addService()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="addService" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="addService()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="addService" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -169,23 +169,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addService -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369482" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752032" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369482" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752032" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369568" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752051" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369568" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752054" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="cancelledStatus()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="cancelledStatus" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="cancelledStatus()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="cancelledStatus" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -239,7 +239,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelledStatus -->
-        <test-method status="SKIP" signature="copyBillingaddress()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="copyBillingaddress" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752062" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752065" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="SKIP" signature="copyBillingaddress()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="copyBillingaddress" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -293,19 +301,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copyBillingaddress -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369583" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752073" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369583" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752075" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369614" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="copyShippingaddress()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="copyShippingaddress" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="copyShippingaddress()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="copyShippingaddress" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -359,15 +363,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copyShippingaddress -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369630" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752082" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752085" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369677" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="createPurchaseWithoutProduct()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="createPurchaseWithoutProduct" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="createPurchaseWithoutProduct()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="createPurchaseWithoutProduct" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -421,15 +425,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPurchaseWithoutProduct -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369677" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752120" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369724" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="multiLineMultiQuantity()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="multiLineMultiQuantity" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="multiLineMultiQuantity()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="multiLineMultiQuantity" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -483,15 +483,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multiLineMultiQuantity -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369739" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369755" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752122" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="notCreated()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="notCreated" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752122" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="SKIP" signature="notCreated()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="notCreated" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -545,15 +545,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notCreated -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369770" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752137" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736369926" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752137" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="singleLineSingleQuantity()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="singleLineSingleQuantity" duration-ms="0" started-at="2019-11-14T18:29:29 IST" finished-at="2019-11-14T18:29:29 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752137" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="SKIP" signature="singleLineSingleQuantity()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="singleLineSingleQuantity" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -607,15 +611,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleLineSingleQuantity -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369926" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752153" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736369989" started-at="2019-11-14T18:29:29 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method status="SKIP" signature="validLogin()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="validLogin" duration-ms="0" started-at="2019-11-14T18:29:30 IST" finished-at="2019-11-14T18:29:30 IST">
+        <test-method status="SKIP" signature="validLogin()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="validLogin" duration-ms="0" started-at="2019-11-14T18:35:52 IST" finished-at="2019-11-14T18:35:52 IST">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
@@ -669,11 +669,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736370004" started-at="2019-11-14T18:29:30 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="openApp()[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="openApp" is-config="true" duration-ms="-1573736752169" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736370114" started-at="2019-11-14T18:29:30 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.vtiger.test.TestLogin@3224f60b]" name="closeApp" is-config="true" duration-ms="-1573736752231" started-at="2019-11-14T18:35:52 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
